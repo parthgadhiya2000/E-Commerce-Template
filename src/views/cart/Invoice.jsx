@@ -2,7 +2,7 @@
 import { ReactComponent as IconBootstrapFill } from "bootstrap-icons/icons/bootstrap-fill.svg";
 import { ReactComponent as IconPrinter } from "bootstrap-icons/icons/printer.svg";
 import { ReactComponent as IconDownload } from "bootstrap-icons/icons/download.svg";
-
+import React from "react";
 const Invoice = () => {
   return (
     <div className="container-fluid bg-secondary p-3">

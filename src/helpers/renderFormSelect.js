@@ -22,13 +22,13 @@ const renderFormSelect = (props) => {
       >
         {label}
       </label>
-      <select {...input} {...props} id={input.name} className="form-select">
+      {/* <select {...input} {...props} id={input.name} className="form-select">
         {options?.map(renderSelectOptions)}
       </select>
       {tips && <div className="form-text">{tips}</div>}
       {touched &&
         ((error && <div className="invalid-feedback">{error}</div>) ||
-          (warning && <span>{warning}</span>))}
+          (warning && <span>{warning}</span>))} */}
     </React.Fragment>
   );
 };

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import React from "react";
 
 const TopMenu = () => {
   return (
@@ -81,32 +82,7 @@ const TopMenu = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/category">
-                Fashion
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Supermarket
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Electronics
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Furniture
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Garden & Outdoors
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Jewellery
+                Product
               </Link>
             </li>
             <li className="nav-item">

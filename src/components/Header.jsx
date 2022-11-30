@@ -68,7 +68,7 @@ const Header = () => {
                   <li>
                     <Link className="dropdown-item" to="/account/wishlist">
                       <IconHeartFill className="text-danger" /> Wishlist
-                    </Link>
+                    </Link>       
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
@@ -93,17 +93,7 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <a
-                href="https://www.buymeacoffee.com/bhaumik"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-                  alt="BuyMeACoffee" width="120"
-                />
-              </a>
-              {/* <Link to="/account/signin">Sign In</Link> |{" "}
+                   {/* <Link to="/account/signin">Sign In</Link> |{" "}
               <Link to="/account/signup"> Sign Up</Link> */}
             </div>
           </div>
